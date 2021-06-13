@@ -1,0 +1,3 @@
+* reset css {}
+abhi tak bas maine website pc responsive baab
+banana sikha hai mobile responsive abhi baki hai bro log 

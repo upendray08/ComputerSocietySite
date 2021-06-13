@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* height: 500px; */
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* background-color: black; */
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 35%;
+    border: 2px solid white;
+    border-radius: 80px;
+    margin: 5px 0px;
+}
+
+.rightnav {
+    width: 50%;
+    /* background-color: red; */
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightnav input {
+    padding: 5px 8px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.background-img {
+    background: rgba(0, 0, 0, 0.7) url(../images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 70vh;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 60px 0px 0px;
+}
+
+.secondhalf {
+    width: 40%;
+    /* padding: 5px 20px; */
+}
+
+.secondhalf img {
+    width: 125%;
+    /* padding: 10px 15px; */
+    /* padding-left: 10px; */
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 90%;
+}
+
+.textbig {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.textsmall {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 10px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm {
+    padding: 6px 15px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.img img {
+    width: 350px;
+    height: 250px;
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    height: 450px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subsectionTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subsection {
+    padding-bottom: 5px;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 60px;
+}
+
+.contact {
+    height: 650px;
+    background-color: rgb(233, 213, 213);
+    /* max-width: 80%; */
+}
+
+.text-center {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form {
+    max-width: 900px;
+    margin: 15px auto;
+}
+
+.form-input {
+    margin: 10px 0;
+    padding: 5px 20px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    /* color: black; */
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid grey;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}

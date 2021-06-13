@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:1309px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 430px;
+        transition: all 0.7s ease-out;
+    }
+    .rightnav {
+        width: 35%;
+        display: flex;
+        /* text-align: center; */
+        flex-direction: column;
+    }
+    .search {
+        width: 100%;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo img {
+        width: 33%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 60px;
+    }
+    .v-nav-resp {
+        opacity: 0;
+    }
+    .firstsection {
+        height: 100vh;
+    }
+    .box-main {
+        height: 560px;
+        flex-direction: column-reverse;
+    }
+    .contact {
+        margin-top: 30px;
+    }
+    .form {
+        max-width: 62%;
+    }
+    .section {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .textbig {
+        text-align: center;
+    }
+    .textsmall {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+    }
+    .firsthalf {
+        padding-left: 95px;
+    }
+    .paras {
+        padding: 0px;
+        /* text-align: right; */
+    }
+}
