@@ -41,7 +41,7 @@ html {
         height: 100vh;
     }
     .box-main {
-        height: 560px;
+        height: 460px;
         flex-direction: column-reverse;
     }
     .contact {
@@ -55,16 +55,18 @@ html {
         height: 100%;
     }
     .textbig {
+        font: size 35px;
         text-align: center;
     }
     .textsmall {
         text-align: center;
+        font-size: 20px;
     }
     .button {
         text-align: center;
     }
     .firsthalf {
-        padding-left: 95px;
+        padding-left: 85px;
     }
     .paras {
         padding: 0px;
