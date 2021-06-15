@@ -203,13 +203,14 @@ html {
 
 .form-input {
     margin: 10px 0px;
-    padding: 5px 0px;
+    padding: 5px 2px;
     width: 100%;
     border: 2px solid gray;
     border-radius: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     /* color: black; */
+    outline: none;
 }
 
 .btn-dark {
