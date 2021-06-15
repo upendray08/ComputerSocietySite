@@ -198,12 +198,12 @@ html {
 
 .form {
     max-width: 900px;
-    margin: 15px auto;
+    margin: 0px auto;
 }
 
 .form-input {
-    margin: 10px 0;
-    padding: 5px 20px;
+    margin: 10px 0px;
+    padding: 5px 0px;
     width: 100%;
     border: 2px solid gray;
     border-radius: 15px;
@@ -221,10 +221,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 0;
+    padding: 15px 0px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     /* font-weight: bold; */
 }
 

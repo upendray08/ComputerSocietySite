@@ -16,9 +16,16 @@ html {
         display: flex;
         /* text-align: center; */
         flex-direction: column;
+        
+    }
+    .rightnav input{
+        padding: 5px 5px;
+        font-size: 12px;
     }
     .search {
         width: 100%;
+        font-size: 14px;
+        
     }
     #logo {
         display: flex;
@@ -26,7 +33,7 @@ html {
         align-items: center;
     }
     #logo img {
-        width: 33%;
+        width: 70%;
     }
     .burger {
         display: block;
@@ -38,7 +45,7 @@ html {
         opacity: 0;
     }
     .firstsection {
-        height: 100vh;
+        height: 80vh;
     }
     .box-main {
         height: 520px;
